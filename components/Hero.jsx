@@ -7,7 +7,6 @@ const Hero = () => {
         <div>
             <Spotlight/>
         </div>
-      
     </div>
   )
 }
