@@ -6,7 +6,7 @@ import { IoCopyOutline } from "react-icons/io5";
 // Also install this npm i --save-dev @types/react-lottie
 import Lottie from "react-lottie";
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/utils/cn";
 
 
 import { BackgroundGradientAnimation } from "./GradientBg";
