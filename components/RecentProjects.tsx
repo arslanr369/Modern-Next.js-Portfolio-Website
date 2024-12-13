@@ -6,7 +6,13 @@ const RecentProjects = () => {
       <h1 className='heading'></h1>
       A small selection of {''}
       <span className='text-purple'>Recent Projects</span>
-      <div className='flex flex-wrap items-center justify-center p-4 gap-16 mt-10'></div>
+      <div className='flex flex-wrap items-center justify-center p-4 gap-16 mt-10'>
+        {projects.map}((projects) =>(
+            <div>
+                {project.title}
+            </div>
+        ))}
+      </div>
     </div>
   )
 }
